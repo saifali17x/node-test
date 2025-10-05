@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Page Not Found - Personal Site</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+</head>
+
+<body class="error-page">
+    <header class="sticky-header">
+        <div class="container">
+            <h1><span class="accent-text">404</span> Error</h1>
+            <nav>
+                <ul>
+                    <li><a class="nav-links" href="/"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a class="nav-links" href="/about.html"><i class="fas fa-user"></i> About Me</a></li>
+                    <li><a class="nav-links" href="/contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="error-container">
+            <div class="error-icon-container">
+                <i class="fas fa-exclamation-triangle fa-5x" style="color: #e74c3c; margin-bottom: 1.5rem;"></i>
+            </div>
+            <h2 class="error-header">Page Not Found</h2>
+            <p class="page-error">
+                We couldn't find the page you're looking for. It might have been removed, renamed, or is temporarily
+                unavailable. Don't worry, you can easily navigate back to our main content.
+            </p>
+            <div class="error-link">
+                <a class="nav-links" href="/"><i class="fas fa-arrow-left"></i> Return to Homepage</a>
+            </div>
+        </div>
+
+        <div class="card-grid" style="margin-top: 3rem;">
+            <div class="card">
+                <div class="card-header">
+                    <i class="fas fa-compass fa-2x"></i>
+                    <h3>Popular Pages</h3>
+                </div>
+                <div class="card-content">
+                    <ul class="feature-list">
+                        <li><a href="/"><i class="fas fa-home"></i> Home Page</a></li>
+                        <li><a href="/about.html"><i class="fas fa-user"></i> About Me</a></li>
+                        <li><a href="/contact.html"><i class="fas fa-envelope"></i> Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <i class="fas fa-question-circle fa-2x"></i>
+                    <h3>Need Help?</h3>
+                </div>
+                <div class="card-content">
+                    <p>If you're having trouble finding what you need, please don't hesitate to reach out through our
+                        contact page.</p>
+                    <a href="/contact.html" class="btn">Get Support</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Personal Site. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
